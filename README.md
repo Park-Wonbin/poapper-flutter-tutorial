@@ -79,7 +79,6 @@ cd poapper-flutter-tutorial
   - images 폴더를 생성하고 추가한 파일들을 `pubspec.yaml`에 등록하는 법을 알아본다.
   - 추가한 이미지를 불러와 표시해본다. 
   - 앱 아이콘 변경해보기 → Android, iOS 따로 적용해야한다.
-    
     - > 안드로이드 Image Asset에서 "project must be built with sdk 26 or later to use adaptive icons" 에러 발생시, Project Structure → Modules → my_project_android → Dependencies에서 Module SDK 버전을 26이상으로 바꿔주면 해결된다.
 - 내비게이션 및 라우팅
   - 새로운 화면으로 이동하고, 되돌아오는 방법을 배운다.
@@ -88,7 +87,6 @@ cd poapper-flutter-tutorial
   - 이전 화면으로 데이터를 반환하는 방법을 알아본다.
   - 화면을 넘나드는 위젯 `Hero`를 이용하여 애니메이션을 만들어본다.
 - Lists 사용하기
-  
   - ListView, ListTile, GridView 등 사용해보기
 
 ### 과제
