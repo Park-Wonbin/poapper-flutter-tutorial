@@ -1,11 +1,30 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tutorial/layout.tutorial.dart';
+import 'package:flutter_tutorial/login.tutorial.dart';
 import 'package:flutter_tutorial/route.tutorial.dart';
+import 'package:flutter_tutorial/sliver.tutorial.dart';
+import 'package:provider/provider.dart';
 
 import 'list.tutorial.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MultiProvider(
+    child: MyApp(),
+    providers: [ChangeNotifierProvider.value(value: AuthRepository())],
+  ));
+}
+
+enum AuthState {
+  Authenticated, UnAuthenticated,
+}
+
+class AuthRepository with ChangeNotifier{
+  AuthState authState = AuthState.UnAuthenticated;
+
+  setState(AuthState state) {
+    authState = state;
+    notifyListeners();
+  }
 }
 
 class MyApp extends StatelessWidget {
@@ -14,14 +33,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Tutorial',
+      theme: ThemeData(),
+      darkTheme: ThemeData.dark(),
       initialRoute: '/',
       routes: {
-        '/': (context) => ListTutorial(),
+        '/': (context) => RootPage(),
         SecondRoute.routeName: (context) => SecondRoute(),
       },
       /* Lecture 01 - LayoutTutorial()
        * Lecture 02 - FirstRoute(), ListTutorial()
-      L*/
+       * Lecture 03 - SliverTutorial(), RootPage()
+       */
     );
   }
 }

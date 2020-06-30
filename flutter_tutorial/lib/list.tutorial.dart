@@ -4,7 +4,7 @@ class ListTutorial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final title = 'Basic List';
-    
+
     List<ListItem> items = List<ListItem>.generate(
       50,
       (i) => i % 6 == 0
@@ -75,7 +75,7 @@ class ListTutorial extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(title),
+        title: Text('List Tutorial'),
       ),
       body: customListView,
     );

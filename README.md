@@ -20,6 +20,8 @@ POSTECH 개발 동아리 'PoApper'에서 진행하는 [**Flutter**](https://flut
 ## Reference Materials
 
 - [Flutter Docs](https://flutter-ko.dev/docs)
+- [Flutter Widget of the Week](https://www.youtube.com/watch?v=b_sQ9bMltGU&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)
+- [Flutter packages](https://pub.dev/)
 
 
 
@@ -79,6 +81,7 @@ cd poapper-flutter-tutorial
   - images 폴더를 생성하고 추가한 파일들을 `pubspec.yaml`에 등록하는 법을 알아본다.
   - 추가한 이미지를 불러와 표시해본다. 
   - 앱 아이콘 변경해보기 → Android, iOS 따로 적용해야한다.
+    
     - > 안드로이드 Image Asset에서 "project must be built with sdk 26 or later to use adaptive icons" 에러 발생시, Project Structure → Modules → my_project_android → Dependencies에서 Module SDK 버전을 26이상으로 바꿔주면 해결된다.
 - 내비게이션 및 라우팅
   - 새로운 화면으로 이동하고, 되돌아오는 방법을 배운다.
@@ -87,7 +90,8 @@ cd poapper-flutter-tutorial
   - 이전 화면으로 데이터를 반환하는 방법을 알아본다.
   - 화면을 넘나드는 위젯 `Hero`를 이용하여 애니메이션을 만들어본다.
 - Lists 사용하기
-  - ListView, ListTile, GridView 등 사용해보기
+  
+  - ListView, ListTile, GridView 등을 사용해보기
 
 ### 과제
 
@@ -100,3 +104,44 @@ cd poapper-flutter-tutorial
 
 ## Lecture 03
 
+### 학습할 내용
+
+- 고급 UI
+  - `SliverList`, `SliverAppBar` 등 사용해서 멋있는 스크롤뷰 구현하기
+  - `GestureDetector`를 사용해서 탭, 길게 누르기 등의 제스처 구현하기
+  - 다크모드 적용하는 법을 알아본다.
+- 데이터 & 백엔드
+  - [상태 관리](https://flutter-ko.dev/docs/development/data-and-backend/state-mgmt/intro)
+  - `Provider`를 활용하여 로그인 페이지 구현해보기
+    - Pub.dev에서 외부 패키지 받아서 추가하기(`puvspec.yaml`)
+
+### 과제
+
+- 학습한 내용 실습해보기!
+  - [Slivers](https://flutter-ko.dev/docs/development/ui/advanced/slivers)
+  - Gesture](https://flutter-ko.dev/docs/development/ui/advanced/gestures)
+  - 다크모드 구현하기
+- **Provider 공부하기**
+
+
+
+## Lecture 04
+
+### 학습할 내용
+
+- 네트워크(?)
+- WebView(?)
+
+
+
+## Lecture 05
+
+### 학습할 내용
+
+- 릴리즈(?)
+
+
+
+## Assn
+
+음... 뭐하지? ㅋㅋㅋ
