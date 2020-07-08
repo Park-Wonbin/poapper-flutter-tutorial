@@ -178,7 +178,21 @@ cd poapper-flutter-tutorial
 
 ### 제출방법
 
-완성된 소스코드를 본인 [**GitHub**](https://github.com/)에 올린 후 링크 제출(간단한 앱 설명 넣어서 README.md 꾸미면 추가점수 😊)
+완성된 소스코드를 본인 [**GitHub**](https://github.com/)에 올린 후 링크 제출( 간단한 앱 설명 넣어서 README.md 꾸미면 추가점수 😊 )
 
 완성된 실행파일 압축해서 카톡으로 제출
+
+### 제출기한
+
+2020-여름학기 세미나: **`2020.07.31. 23:59까지`**
+
+#  
+
+
+
+<img src="https://github.com/Park-Wonbin/poapper-android-tutorial/blob/master/poapper_logo.png?raw=true" alt="img" style="zoom:25%;" />
+
+그동안 수고하셨습니다!
+
+2020학년도 여름학기 Flutter 세미나 담장자: **박원빈**(wonbin9413@postech.ac.kr)
 
