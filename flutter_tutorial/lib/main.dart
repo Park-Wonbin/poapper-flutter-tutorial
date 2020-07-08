@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_tutorial/api.tutorial.dart';
 import 'package:flutter_tutorial/layout.tutorial.dart';
 import 'package:flutter_tutorial/login.tutorial.dart';
+import 'package:flutter_tutorial/retrofit.tutorial.dart';
 import 'package:flutter_tutorial/route.tutorial.dart';
+import 'package:flutter_tutorial/screen/login.page.dart';
+import 'package:flutter_tutorial/screen/main.page.dart';
 import 'package:flutter_tutorial/sliver.tutorial.dart';
 import 'package:provider/provider.dart';
 
@@ -10,7 +14,7 @@ import 'list.tutorial.dart';
 void main() {
   runApp(MultiProvider(
     child: MyApp(),
-    providers: [ChangeNotifierProvider.value(value: AuthRepository())],
+    providers: [ChangeNotifierProvider.value(value: AuthRepository()), Provider<RestClient>.value(value: RestClient.create())],
   ));
 }
 
@@ -37,7 +41,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData.dark(),
       initialRoute: '/',
       routes: {
-        '/': (context) => RootPage(),
+        '/': (context) => RetrofitTutorial(),
         SecondRoute.routeName: (context) => SecondRoute(),
       },
       /* Lecture 01 - LayoutTutorial()

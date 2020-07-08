@@ -81,6 +81,7 @@ cd poapper-flutter-tutorial
   - images 폴더를 생성하고 추가한 파일들을 `pubspec.yaml`에 등록하는 법을 알아본다.
   - 추가한 이미지를 불러와 표시해본다. 
   - 앱 아이콘 변경해보기 → Android, iOS 따로 적용해야한다.
+    
     - > 안드로이드 Image Asset에서 "project must be built with sdk 26 or later to use adaptive icons" 에러 발생시, Project Structure → Modules → my_project_android → Dependencies에서 Module SDK 버전을 26이상으로 바꿔주면 해결된다.
 - 내비게이션 및 라우팅
   - 새로운 화면으로 이동하고, 되돌아오는 방법을 배운다.
@@ -89,6 +90,7 @@ cd poapper-flutter-tutorial
   - 이전 화면으로 데이터를 반환하는 방법을 알아본다.
   - 화면을 넘나드는 위젯 `Hero`를 이용하여 애니메이션을 만들어본다.
 - Lists 사용하기
+  
   - ListView, ListTile, GridView 등을 사용해보기
 
 ### 과제
@@ -117,7 +119,7 @@ cd poapper-flutter-tutorial
 
 - 학습한 내용 실습해보기!
   - [Slivers](https://flutter-ko.dev/docs/development/ui/advanced/slivers)
-  - Gesture](https://flutter-ko.dev/docs/development/ui/advanced/gestures)
+  - [Gesture](https://flutter-ko.dev/docs/development/ui/advanced/gestures)
   - 다크모드 구현하기
 - **Provider 공부하기**
 
@@ -127,8 +129,16 @@ cd poapper-flutter-tutorial
 
 ### 학습할 내용
 
-- 네트워크(?)
-- WebView(?)
+- 네트워킹
+  - Retrofit
+    - **[pub.dev](pub.dev)**에서 **retrofit** 패키지를 받아 적용한다.
+    - Retrofit API를 사용하는 방법을 알아본다.
+- FutureBuilder 알아보기
+
+### 과제
+
+- Retrofit 실습해보기!
+- FutureBuilder 이해하기!
 
 
 
@@ -138,8 +148,39 @@ cd poapper-flutter-tutorial
 
 - 릴리즈(?)
 
+### 과제 
+
+- Assn 완성하여 설치 파일 제출하기(?)
+
 
 
 ## Assn
 
-음... 뭐하지? ㅋㅋㅋ
+### 주제
+
+게시판 앱 만들기
+
+### 요구사항
+
+- 최소 페이지 2개
+  - 메인 페이지(게시글 목록)
+  - 게시글 작성 페이지
+- 여러 위젯들을 사용하여 UI를 예쁘게 꾸며야함, 앱 아이콘을 변경해야 됨
+  - `Material` 디자인이 기본이나 원하면 `Cupertino` 디자인으로 해도 됨
+  - 가능하면 `Sliver`, `Hero` 꼭 넣어서 디자인 해보기
+  - 다크모드 지원하면 추가점수 😊
+  - 위에서 배우진 않았지만 `TextField`, `FloatingActionButton` 위젯을 찾아보고 활용하면 도움이 됨
+  - 그밖에 필요할 것 같은 위젯은 [여기서](https://flutter.dev/docs/development/ui/widgets/material) 보고 골라서 사용하면 됨
+- 튜토리얼 서버에 있는 게시판 API를 활용할 것
+  - `Retofit`, `Provider`, `FutureBuilder`를 이용하여 서버의 게시글을 받아올 것
+  - 글 목록 보기, 글 작성, 글 삭제 기능을 구현해야 됨
+  - 튜토리얼 API 사용 방법은 **[여기서](http://binvitstudio.com/poapper/api/)** 참고 
+- 게시판 앱 완성 후 게시글 최소 1개 이상 작성하기
+  - 첫 글에 본인 이름 넣어서 완성했다고 알리기
+
+### 제출방법
+
+완성된 소스코드를 본인 **[GitHub](https://github.com/)**에 올린 후 링크 제출(간단한 앱 설명 넣어서 README.md 꾸미면 추가점수 😊)
+
+완성된 실행파일 압축해서 카톡으로 제출
+
