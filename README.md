@@ -1,5 +1,6 @@
-<img src="https://flutter.dev/assets/flutter-lockup-c13da9c9303e26b8d5fc208d2a1fa20c1ef47eb021ecadf27046dea04c0cebf6.png" alt="img" style="zoom:25%;" />
-
+<p align="center">
+  <img src="https://flutter.dev/assets/flutter-lockup-c13da9c9303e26b8d5fc208d2a1fa20c1ef47eb021ecadf27046dea04c0cebf6.png" alt="img" width="40%;" />
+</p>
 
 
 # Flutter Tutorial
@@ -190,7 +191,7 @@ cd poapper-flutter-tutorial
 
 
 
-<img src="https://github.com/Park-Wonbin/poapper-android-tutorial/blob/master/poapper_logo.png?raw=true" alt="img" style="zoom:25%;" />
+<img src="https://github.com/Park-Wonbin/poapper-android-tutorial/blob/master/poapper_logo.png?raw=true" alt="img" width="25%;" />
 
 그동안 수고하셨습니다!
 
