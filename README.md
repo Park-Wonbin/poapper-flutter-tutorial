@@ -131,7 +131,7 @@ cd poapper-flutter-tutorial
 
 - 네트워킹
   - Retrofit
-    - **[pub.dev](pub.dev)**에서 **retrofit** 패키지를 받아 적용한다.
+    - [**pub.dev**](pub.dev)에서 **retrofit** 패키지를 받아 적용한다.
     - Retrofit API를 사용하는 방법을 알아본다.
 - FutureBuilder 알아보기
 
@@ -156,9 +156,7 @@ cd poapper-flutter-tutorial
 
 ## Assn
 
-### 주제
-
-게시판 앱 만들기
+### 주제: 게시판 앱 만들기
 
 ### 요구사항
 
@@ -174,13 +172,13 @@ cd poapper-flutter-tutorial
 - 튜토리얼 서버에 있는 게시판 API를 활용할 것
   - `Retofit`, `Provider`, `FutureBuilder`를 이용하여 서버의 게시글을 받아올 것
   - 글 목록 보기, 글 작성, 글 삭제 기능을 구현해야 됨
-  - 튜토리얼 API 사용 방법은 **[여기서](http://binvitstudio.com/poapper/api/)** 참고 
+  - 튜토리얼 API 사용 방법은 [**여기서**](http://binvitstudio.com/poapper/api/) 참고 
 - 게시판 앱 완성 후 게시글 최소 1개 이상 작성하기
   - 첫 글에 본인 이름 넣어서 완성했다고 알리기
 
 ### 제출방법
 
-완성된 소스코드를 본인 **[GitHub](https://github.com/)**에 올린 후 링크 제출(간단한 앱 설명 넣어서 README.md 꾸미면 추가점수 😊)
+완성된 소스코드를 본인 [**GitHub**](https://github.com/)에 올린 후 링크 제출(간단한 앱 설명 넣어서 README.md 꾸미면 추가점수 😊)
 
 완성된 실행파일 압축해서 카톡으로 제출
 
