@@ -147,11 +147,14 @@ cd poapper-flutter-tutorial
 
 ### 학습할 내용
 
-- 릴리즈(?)
+- 릴리즈
+  - 안드로이드 앱 배포하기
+    - [앱 매니페스트 검토하기]([https://flutter-ko.dev/docs/deployment/android#%EC%95%B1-%EB%A7%A4%EB%8B%88%ED%8E%98%EC%8A%A4%ED%8A%B8-%EA%B2%80%ED%86%A0%ED%95%98%EA%B8%B0](https://flutter-ko.dev/docs/deployment/android#앱-매니페스트-검토하기))
+    - APK 빌드하기
 
 ### 과제 
 
-- Assn 완성하여 설치 파일 제출하기(?)
+- Assn 완성하여 설치 파일(APK) 제출하기
 
 
 
@@ -181,7 +184,7 @@ cd poapper-flutter-tutorial
 
 완성된 소스코드를 본인 [**GitHub**](https://github.com/)에 올린 후 링크 제출( 간단한 앱 설명 넣어서 README.md 꾸미면 추가점수 😊 )
 
-완성된 실행파일 압축해서 카톡으로 제출
+완성된 실행파일(APK) 압축해서 카톡으로 제출
 
 ### 제출기한
 

@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData.dark(),
       initialRoute: '/',
       routes: {
-        '/': (context) => RetrofitTutorial(),
+        '/': (context) => FirstRoute(),
         SecondRoute.routeName: (context) => SecondRoute(),
       },
       /* Lecture 01 - LayoutTutorial()
