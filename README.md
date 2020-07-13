@@ -112,7 +112,7 @@ cd poapper-flutter-tutorial
 - 데이터 & 백엔드
   - [상태 관리](https://flutter-ko.dev/docs/development/data-and-backend/state-mgmt/intro)
   - `Provider`를 활용하여 로그인 페이지 구현해보기
-    - Pub.dev에서 외부 패키지 받아서 추가하기(`puvspec.yaml`)
+    - Pub.dev에서 외부 패키지 받아서 추가하기(`pubspec.yaml`)
 
 ### 과제
 
